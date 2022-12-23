@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Menu Infantil</title>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="extra.js"></script>
+</head>
+<body>
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a class="active">&nbsp;</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" class="nav nav-tabs">
+    <a class="benchnine uppercase" href="index.html">Desayunos</a>
+			<a class="benchnine uppercase" href="menu-comida.html">Comida</a>
+			<a class="benchnine uppercase" href="cena.html">Cena</a>
+			<a class="benchnine uppercase" href="menu-dia.html">Men&uacute; del d&iacute;a</a>
+			<a class="benchnine uppercase" href="menu-infantil.html">Men&uacute; infantil</a>
+			<a class="benchnine uppercase" href="postres.html">Postres</a>
+			<a class="benchnine uppercase" href="bebidas.html">Bebidas</a>
+			<a class="benchnine uppercase" href="bar.html">Bar</a>
+	</div> 
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
+    <div class="container" id="up">
+		<div class="row">
+			<div class="menus nav nav-tabs col-lg-12 justify-content-center p-0">
+				<a href="index.html" style="background:#ffb91a;" class="hover-1">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Desayunos</div>
+				</a>
+				<a href="menu-comida.html" style="background:#ff8300;" class="hover-1">
+					<div class="btn_carta benchnine uppercase">Comidas <br> y cenas</div>
+				</a>
+				<a href="menu-dia.html" style="background:#7f4600;" class="hover-1">
+					<div class="btn_carta benchnine uppercase">Men&uacute; <br> del d&iacute;a</div>
+				</a>
+				<a href="menu-infantil.html" style="background:#ffb91a;" class="hover-1">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Men&uacute; <br> infantil</div>
+				</a>
+				<a href="postres.html" style="background:#ffb91a;" class="hover-1">
+					<div style="color:#7f4600;" class="btn_carta benchnine uppercase">Postres</div>
+				</a>
+				<a href="bebidas.html" style="background:#4cbaac;" class="hover-1">
+					<div class="btn_carta benchnine uppercase">Bebidas</div>
+				</a>
+				<a href="bar.html" style="background:#4cbaac;" class="hover-1">
+					<div class="btn_carta benchnine uppercase">Bar</div>
+				</a>
+			</div>
+		</div>       
+            <div  class="tab-content">
+                <!--Menu infantil-->
+                <div class="tab-pane container active category" id="4a">
+                  <div class="row">    
+						<div class="col-lg-12 com-title">
+							<img src="https://pendulo.com/archivos/titulo-infantil.png" />
+						</div>
+					<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<img id="uno" src=""/>
+									<p id="dos" data-content=""></p>
+									<p id="tres"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+          <div class="col-lg-5 offset-lg-1 menu-itms">
+              <ul>
+              		<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/01_hot-cakes-lulu-con-platano-y-nutela.jpg' data-content="Untados con Nutella® y rodajas de plátano tabasco. 3 piezas.">Hot Cakes Lulú con Plátano y Nutella</a></li>
+              		<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class=" food" src='https://pendulo.com/archivos/02_huevo-con-papas-tintin.jpg' data-content="Estrellado o revuelto, acompañado de papas wafleadas. Puede ser con queso gouda, jamón York, queso Oaxaca o pechuga de pavo ahumada. 1 pieza.">Huevo con Papas Tintín</a></li>
+              		<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/sopa-de-fideo-potter.jpg' data-content="Clásica sopa de fideo en caldillo de jitomate. 355ml.">Sopa de Fideo Potter</a></li>
+              		<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class=" food" src='https://pendulo.com/archivos/06-oruga-de-pollo-hermione.jpg' data-content="Nuggets de pechuga de pollo, acompañados de papas wafleadas. 5 piezas.">Oruga de Pollo Hermione</a></li>
+              		<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/milanesa-alicia.jpg' data-content="Milanesa de pollo empanizada y gratinada. Acompañada de papas wafleadas." data-name="100g">Milanesa Alicia</a></li>
+		
+              </ul>
+          </div>
+                      
+						<div class="col-lg-5 offset-lg-1 menu-itms">
+							<ul>
+									<li class="subtitle"><a href="" data-toggle="modal" data-target="#myModal" class="food" src='https://pendulo.com/archivos/03_vaso-de-leche-fria-o-caliente.jpg' data-content="">Vaso de Leche Fría o Caliente</a></li>
+              		
+              		<li class="subtitle">
+									<p href="" data-toggle="modal" data-target="" class="">Chocolate</p>
+									<a href="" data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/04_chocolate-frio-o-caliente.jpg' data-content="325ml"><p class="subtext-1">Chocolate frío</p></a>
+									<a href="" data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/04_chocolate-frio-o-caliente.jpg' data-content="325ml"><p class="subtext-1">Chocolate caliente</p></a>
+								</li>
+								<li class="subtitle">
+									<p href="" data-toggle="modal" data-target="" class="">Flotantes de Vainilla o de Limón</p>
+									<a href="" data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/09_flotante-de-vainilla.jpg' data-content="Bola de helado de vainilla o nieve de limón, flotando dentro de un vaso de Coca-Cola." data-name="355ml"><p class="subtext-1">Flotante de Vainilla</p></a>
+									<a href="" data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/08_flotante-de-limon.jpg' data-content="Bola de helado de vainilla o nieve de limón, flotando dentro de un vaso de Coca-Cola." data-name="355ml"><p class="subtext-1">Flotante de Limón</p></a>
+								</li>
+								<li class="subtitle">
+									<p class="">Jarrita de agua de fruta</p>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/65_agua-de-horchata.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Horchata</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-de-guayaba.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Guayaba</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-de-jamaica.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Jamaica</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-de-melon.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Melón</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-pepino-limon.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Pepino Limón</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-te-limon.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua Te Limón</p></a>
+									<a data-target="#myModal" data-toggle="modal" class="food" src='https://pendulo.com/archivos/agua-tutifrutti.jpg' data-name="500ml" data-content="De fruta 100% natural con o sin azúcar.  Pregunte por el sabor del dia."><p class="subtext-1">Agua de Tutifrutti</p></a>
+								</li>
+								<li class="subtitle"><a data-toggle="modal" data-target="#myModal" class=" food" src='https://pendulo.com/archivos/52_refrescos.jpg' data-content="Coca-Cola, Sprite, Sidral Mundet y Fanta de naranja." data-name="355ml">Refrescos</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="text-right">
+                          <a href="#up" class="btn btn-arrow me-md-2" type="button">↑</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+			</div>
+		</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
